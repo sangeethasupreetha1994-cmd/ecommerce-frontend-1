@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosInstance = axios.create({
-    baseURL: "https://ecommerce-backend-1-3.onrender.com",
+    baseURL: "baseURL: import.meta.env.VITE_BACKEND_URL",
     withCredentials: true,
 });
 
